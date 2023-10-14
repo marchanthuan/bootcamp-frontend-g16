@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section>
+      <h1 class="h1">Crea una cuenta</h1>
+      <h2 class="h2">Ingresa la siguiente informacion para registrarse.</h2>
+
+      <label for="">
+        <input type="text" placeholder="Nombres" />
+      </label>
+      <label for="">
+        <input type="text" placeholder="Apellidos" />
+      </label>
+
+      <label>
+        <input type="number" placeholder="Edad Ej. 18" name="edad" />
+      </label>
+      <label>
+        Input tipo date (dia)
+        <input type="date" name="dia" placeholder="Fecha de nacimiento" />
+      </label>
+      <label for="">
+        Genero
+        <select name="comidas" id="">
+          <option value="">Selecciona tu genero...</option>
+          <option value="fr">Masculino</option>
+          <option value="it">Femenino</option>
+        </select>
+      </label>
+      <label for="">
+        <input
+          type="email"
+          placeholder="Email: ej. user@gmail.com"
+          name="email"
+        />
+      </label>
+      <label for="">
+        <input type="text" placeholder="Dirección" />
+      </label>
+      <label for="">
+        <input type="text" placeholder="Dirección Linea 2" />
+      </label>
+
+      <label for="">
+        Telefono
+        <input
+          type="tel"
+          name="telefone"
+          required
+          placeholder="Numero de Telefono. Ej. +51 999999999"
+          pattern="\+[0-9]{2} [0-9]{9}"
+        />
+      </label>
+      <label for="">
+        <input type="text" placeholder="Ej. 14001" />
+      </label>
+      <label for="">
+        <input type="text" placeholder="Ej. Chiclayo" />
+      </label>
+      <label for="">
+        <input type="password" placeholder="Password" />
+      </label>
+      <label>
+        <input type="password" placeholder="Confirmar Password" />
+      </label>
+      <label>
+        Subir firma
+        <input type="file" accept=".jpg, .jpeg" placeholder="Subir firma" />
+      </label>
+
+      <label for="">
+        <input type="checkbox" placeholder="Acepto" /> Acepto los terminos, condiciones y politicas.
+      </label>
+      <button name="registrar" value="Registrarse">Registrarse</button>
+
+      <p>Ya tienes una cuenta? <a href="">Accede desde aqui</a></p>
+    </section>
+  </body>
+</html>

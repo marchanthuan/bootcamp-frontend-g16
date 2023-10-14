@@ -1,0 +1,12 @@
+Estimado participante:
+
+El propósito de esta actividad es que el participante sea capaz de conocer la semántica con front - Formularios HTML básico. A su ve
+
+La tarea consiste en crear un formulario para crear una cuenta de usuario con los campos nombres, apellidos, email, telefono, password, confirmar password(caja de texto), si gustan pueden agregar más campos. Y un botón llamado registrarse. Opcionalmente pueden usar el framework PICO que vimos en clase.
+
+Este trabajo debe realizarse utilizando visual studio code y debe entregarse un link con la solución al reto dentro de sus repositorio (github).
+
+Link a los recursos:
+
+https://picocss.comLinks to an external site.
+NOTA: A continuación dejo dos recomendaciones de diseño de como pueden resolver este reto, solo necesitan hacer uno.

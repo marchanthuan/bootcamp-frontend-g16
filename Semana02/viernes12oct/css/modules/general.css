@@ -1,0 +1,31 @@
+
+html {
+    font-size: var(--font-size);
+}
+
+body {
+    background-color: var(--primary-dark-blue-intro);
+    color: var(--neutral-white);
+
+    position:relative;
+}
+
+a {
+    color: inherit;  /* inherrit = hereda del padre la caracteristica */
+    text-decoration: none;  /* subrayado de los enlaces */ 
+}
+
+a:hover {
+    /* cuando ponemos el puntero sobre la etiqueta*/
+    color:white;
+    font-weight: var(--font-weight-bold);
+    text-decoration: underline;
+
+}
+
+img {
+    /* TODO: RWD para imagenes */
+    max-width: 100%;
+    height: auto;
+
+}

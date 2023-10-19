@@ -1,0 +1,9 @@
+/* RESETs */
+
+* {
+    /* aplica a todos los elementos */ 
+    /* color:blue; */
+    /* border: 1px solid red;  */
+    box-sizing: border-box;
+    margin: 0;
+}

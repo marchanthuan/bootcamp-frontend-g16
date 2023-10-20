@@ -41,6 +41,6 @@
 }
 
 .how_works__button:hover svg circle {
-    fill:white;
+    fill:var(--neutral-white);
 
 }

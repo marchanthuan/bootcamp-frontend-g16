@@ -210,6 +210,10 @@ img {
     cursor:pointer;
 
     box-shadow: 0 0 30px var(--primary-orange);
+
+    display:flex;
+    gap: 10px;
+    justify-content: center;
 }
 
 .product__add-to-card svg path {

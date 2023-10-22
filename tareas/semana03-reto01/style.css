@@ -20,7 +20,7 @@
 * {
     box-sizing: border-box;
     margin:0;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 html {
@@ -42,6 +42,11 @@ h2 {
     font-size:2rem;
     font-weight: var(--font-weight-bold);
     color:blue;
+}
+
+.wrapper {
+    width: min(100% - 3rem, 1200px);
+    margin: 0 auto;
 }
   
 .header {
@@ -127,5 +132,6 @@ h2 {
 .footer__nivel2 {
     display:flex;
     flex-direction: column;
+    margin-top: 1rem;
 }
 

@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+
+:root {
+    /* FONTS */
+    --font-primary: 'Raleway', 'Open Sans';
+    --font-size: 16px;
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+
+    /* COLORS */
+    --primary-very-dark-blue: hsl(243, 87%, 12%);
+    --primary-desaturated-blue: hsl(238, 22%, 44%);
+    --accent-bright-blue: hsl(224, 93%, 58%);
+    --accent-moderate-cyan: hsl(170, 45%, 43%);
+    --neutral-light-grayish-blue: hsl(240, 75%, 98%);
+    --neutral-light-gray: hsl(0, 0%, 75%);
+
+}
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    border: 1px solid red;
+}
+
+html {
+    font-size: var(--font-size);
+}
+
+body {
+    font-family: var(--font-primary);
+    margin: 3rem 3rem 
+}
+
+img {
+    /* RWD para imágenes*/
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    font-size:2rem;
+    font-weight: var(--font-weight-bold);
+    color:blue;
+}
+  
+.header {
+    display:flex;
+    align-content: space-between;
+    padding: 4rem 3rem;
+}
+
+.flex {
+    display:flex;
+}
+
+.flex2 {
+    display:flex;
+    flex-direction: column;
+}
+
+.started {
+    display:flex;
+    padding: 4rem 3rem;
+}
+
+.started h2 {
+    padding:1rem 0rem;
+}
+
+.stay {
+    display:flex;
+    padding: 5rem 3rem;
+}
+
+.stay a {
+    color: var(--accent-moderate-cyan);
+}
+
+.stay__usuario img {
+    border-radius: 15rem;
+}
+
+.access {
+    display:flex;
+    background-color: var(--primary-desaturated-blue);
+    padding: 4rem 3rem;
+    color:white;
+
+}
+
+.access h2 {
+    font-size: 2rem;
+    width: var(--font-weight-bold);
+    padding: 1rem;
+    color: white;
+
+}
+
+.access p {
+    color: white;
+    
+}
+
+.access button {
+    color: white;
+    font-weight: var(--font-weight-bold);
+    background-color: rgb(60, 148, 207);
+    padding: 1rem;
+    width:200px;
+    border-radius:15px
+}
+
+.footer {
+    background-color: var(--accent-bright-blue);
+    justify-content: space-between;
+    color:white;
+    padding: 4rem 3rem;
+    
+}
+
+.footer__nivel1 {
+    display:flex;
+    justify-content: space-between;
+}
+
+.footer__nivel2 {
+    display:flex;
+    flex-direction: column;
+}
+

@@ -30,3 +30,5 @@ The designs were created to the following widths:
 
 - Family: [Roboto](https://fonts.google.com/specimen/Roboto)
 - Weights: 400, 700
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300&family=Montserrat+Alternates:wght@100&family=Roboto:wght@100;300;400;500;700&display=swap');
